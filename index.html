@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA Cosmetics | 奧拉美妝 - 奢華光感與自然優雅的完美結合</title>
+  <meta name="description" content="AURA Cosmetics 奧拉美妝提供頂級奢華女性化妝品。融合自然萃取與創新科技，展現您獨一無二的專屬光芒。探索我們的粉底液、霧面絲絨唇膏與九色眼影盤。">
+  <meta name="keywords" content="化妝品, 美妝品牌, 粉底液, 霧面唇膏, 眼影盤, 睫毛膏, 奧拉美妝, AURA Cosmetics">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="logoLink">
+        <img src="assets/logo.png" alt="AURA Cosmetics Logo" id="logoImg">
+        <span class="logo-text">AURA</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item active"><a href="index.html">首頁</a></li>
+          <li class="nav-item"><a href="about.html">品牌故事</a></li>
+          <li class="nav-item"><a href="products.html">奢華美妝</a></li>
+          <li class="nav-item"><a href="tutorials.html">美妝教學</a></li>
+          <li class="nav-item"><a href="returns.html">售後服務</a></li>
+          <li class="nav-item"><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <button class="nav-action-btn" id="searchBtn" aria-label="搜尋"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="nav-action-btn" id="userBtn" aria-label="會員"><i class="fa-regular fa-user"></i></button>
+        <button class="nav-action-btn" id="cartBtn" aria-label="購物車">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="heroSection">
+    <div class="hero-background" style="background-image: url('assets/product-foundation.png');"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-subtitle">New Luminous Series</span>
+        <h1 class="hero-title">喚醒您肌膚的<br>極致光芒</h1>
+        <p class="hero-description">AURA 全新絲絨光感粉底液，獨家光學微粒科技，打造輕薄如絲、全天候持久的微光無瑕底妝。這不僅是彩妝，更是一場肌膚的奢華儀式。</p>
+        <div class="hero-actions">
+          <a href="product-foundation.html" class="btn btn-primary" id="heroCtaPrimary">立即探索</a>
+          <a href="products.html" class="btn btn-secondary" id="heroCtaSecondary">瀏覽全部</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section class="section" id="philosophySection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Our Philosophy</span>
+        <h2 class="section-title">純淨奢華，無瑕綻放</h2>
+        <p class="section-description">我們深信，化妝品不應只是遮蓋，而是展現您原生的美麗與自信。AURA 精選純植物萃取成分，無動物實驗，為現代女性帶來兼顧健康與極致妝感的頂級體驗。</p>
+      </div>
+      
+      <div class="feature-grid">
+        <div class="feature-card" id="featCard1">
+          <i class="fa-solid fa-leaf feature-icon"></i>
+          <h3 class="feature-title">植萃純淨配方</h3>
+          <p class="feature-text">添加大馬士革玫瑰精油與角鯊烷，上妝同時深層滋養，維持肌膚長效保水力。</p>
+        </div>
+        <div class="feature-card" id="featCard2">
+          <i class="fa-solid fa-wand-magic-sparkles feature-icon"></i>
+          <h3 class="feature-title">獨家光感科技</h3>
+          <p class="feature-text">折射自然光線，隱形瑕疵與毛孔，呈現由內而外的立體剔透光澤。</p>
+        </div>
+        <div class="feature-card" id="featCard3">
+          <i class="fa-solid fa-hand-holding-heart feature-icon"></i>
+          <h3 class="feature-title">零殘忍與永續</h3>
+          <p class="feature-text">100% 拒絕動物實驗，使用可回收包裝，為地球與肌膚盡一份心力。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="section section-bg" id="featuredSection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Best Sellers</span>
+        <h2 class="section-title">熱銷明星單品</h2>
+        <p class="section-description">為您精選最受歡迎的美妝珍品，輕鬆打造精緻日常與耀眼晚宴妝容。</p>
+      </div>
+      
+      <div class="product-grid">
+        <!-- Foundation -->
+        <div class="product-card" data-category="face" id="prodFoundation">
+          <span class="product-badge">熱銷</span>
+          <div class="product-image-container">
+            <img src="assets/product-foundation.png" alt="Luminous Silk Liquid Foundation">
+          </div>
+          <div class="product-info">
+            <span class="product-category">底妝 / Face</span>
+            <a href="product-foundation.html" class="product-name">絲絨光感粉底液</a>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(128)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">NT$ 1,880</span>
+              <button class="add-to-cart-btn" data-product="絲絨光感粉底液" onclick="addToCart('絲絨光感粉底液')" aria-label="加到購物車"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Lipstick -->
+        <div class="product-card" data-category="lips" id="prodLipstick">
+          <span class="product-badge">精選</span>
+          <div class="product-image-container">
+            <img src="assets/product-lipstick.png" alt="Velvet Matte Lipstick">
+          </div>
+          <div class="product-info">
+            <span class="product-category">唇彩 / Lips</span>
+            <a href="product-lipstick.html" class="product-name">霧面絲絨唇膏</a>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(94)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">NT$ 980</span>
+              <button class="add-to-cart-btn" data-product="霧面絲絨唇膏" onclick="addToCart('霧面絲絨唇膏')" aria-label="加到購物車"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Eyeshadow -->
+        <div class="product-card" data-category="eyes" id="prodEyeshadow">
+          <div class="product-image-container">
+            <img src="assets/product-eyeshadow.png" alt="Nude Horizon Eyeshadow Palette">
+          </div>
+          <div class="product-info">
+            <span class="product-category">眼妝 / Eyes</span>
+            <a href="product-eyeshadow.html" class="product-name">大地之光九色眼影盤</a>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(105)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">NT$ 1,480</span>
+              <button class="add-to-cart-btn" data-product="大地之光九色眼影盤" onclick="addToCart('大地之光九色眼影盤')" aria-label="加到購物車"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mascara -->
+        <div class="product-card" data-category="eyes" id="prodMascara">
+          <div class="product-image-container">
+            <img src="assets/product-mascara.png" alt="Volume Lash Waterproof Mascara">
+          </div>
+          <div class="product-info">
+            <span class="product-category">眼妝 / Eyes</span>
+            <a href="product-mascara.html" class="product-name">羽扇立體睫毛膏</a>
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>(62)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="product-price">NT$ 780</span>
+              <button class="add-to-cart-btn" data-product="羽扇立體睫毛膏" onclick="addToCart('羽扇立體睫毛膏')" aria-label="加到購物車"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="products.html" class="btn btn-outline" id="viewAllBtn">探索所有產品</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutorial Teaser Section -->
+  <section class="section" id="tutorialTeaserSection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Beauty Academy</span>
+        <h2 class="section-title">美妝保養教學</h2>
+        <p class="section-description">由國際頂尖彩妝師親自示範，讓您輕鬆掌握專業化妝技巧與保養祕訣。</p>
+      </div>
+      
+      <div class="tutorial-grid">
+        <div class="tutorial-card" id="tutTeaser1">
+          <div class="tutorial-media">
+            <img src="assets/product-foundation.png" alt="Natural Glow Makeup Tutorial">
+            <div class="play-overlay">
+              <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+            </div>
+          </div>
+          <div class="tutorial-body">
+            <span class="tutorial-tag">新手入門</span>
+            <h3 class="tutorial-title">5分鐘法式微光偽素顏妝容</h3>
+            <p class="tutorial-excerpt">如何使用最少的美妝步驟，打造極致無瑕、透亮乾淨的微光感妝容，適合日常通勤與約會。</p>
+            <a href="tutorials.html" class="tutorial-link">觀看教學 <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="tutorial-card" id="tutTeaser2">
+          <div class="tutorial-media">
+            <img src="assets/product-eyeshadow.png" alt="Glam Eye Makeup Tutorial">
+            <div class="play-overlay">
+              <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+            </div>
+          </div>
+          <div class="tutorial-body">
+            <span class="tutorial-tag">眼妝進階</span>
+            <h3 class="tutorial-title">大地之光漸層立體眼妝技巧</h3>
+            <p class="tutorial-excerpt">深入解析九色眼影盤的漸層搭配，從亮片打底到深邃眼尾，打造明亮有神的深邃電眼。</p>
+            <a href="tutorials.html" class="tutorial-link">觀看教學 <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column footer-about">
+          <h3>AURA Cosmetics</h3>
+          <p>奢華光感與自然優雅的完美結合。AURA 致力於打造純淨無瑕的美妝體驗，釋放每位女性獨特的自信光芒。</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3>快速連結</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">品牌故事</a></li>
+            <li><a href="products.html">所有產品</a></li>
+            <li><a href="tutorials.html">美妝教學</a></li>
+            <li><a href="returns.html">售後與退換貨</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>熱銷品項</h3>
+          <ul class="footer-links">
+            <li><a href="product-foundation.html">絲絨光感粉底液</a></li>
+            <li><a href="product-lipstick.html">霧面絲絨唇膏</a></li>
+            <li><a href="product-eyeshadow.html">大地之光九色眼影盤</a></li>
+            <li><a href="product-highlighter.html">極致星光高光液</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>訂閱我們</h3>
+          <p style="color: #b0b0b0; line-height: 1.6;">第一時間獲取最新彩妝趨勢與獨家優惠。</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="輸入您的電子郵件" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn" aria-label="訂閱"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 AURA Cosmetics. All rights reserved. 版權所有。非真實品牌，僅供前端設計展示用。</p>
+        <p>設計與開發：Antigravity</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

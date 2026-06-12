@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聯絡我們 | AURA Cosmetics 奧拉美妝 - 線上客服與店舖資訊</title>
+  <meta name="description" content="聯絡 AURA Cosmetics 奧拉美妝。若您有任何訂單問題、合作提議、彩妝諮詢或退換貨需求，歡迎填寫聯絡表單或撥打客服專線，我們將竭誠為您服務。">
+  <meta name="keywords" content="聯絡我們, 客服電話, 線上客服, 店面地址, 奧拉美妝, AURA Cosmetics">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="AURA Cosmetics Logo">
+        <span class="logo-text">AURA</span>
+      </a>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">首頁</a></li>
+          <li class="nav-item"><a href="about.html">品牌故事</a></li>
+          <li class="nav-item"><a href="products.html">奢華美妝</a></li>
+          <li class="nav-item"><a href="tutorials.html">美妝教學</a></li>
+          <li class="nav-item"><a href="returns.html">售後服務</a></li>
+          <li class="nav-item active"><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="nav-action-btn" aria-label="搜尋"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="nav-action-btn" aria-label="會員"><i class="fa-regular fa-user"></i></button>
+        <button class="nav-action-btn" aria-label="購物車">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Title Section -->
+  <section class="section section-bg" style="padding: 60px 0; text-align: center;">
+    <div class="container">
+      <span class="section-subtitle">Get In Touch</span>
+      <h1 class="section-title" style="font-size: 2.8rem; margin-bottom: 10px;">聯絡我們</h1>
+      <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">有任何問題或建議嗎？請填寫表單，我們的客服人員將儘速回覆您。</p>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- Contact Info -->
+        <div class="contact-info-block">
+          <h2 class="contact-info-title">聯繫資訊</h2>
+          <ul class="contact-details">
+            <li class="contact-detail-item">
+              <span class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></span>
+              <div class="contact-detail-text">
+                <h4>總部地址 / Headquarters</h4>
+                <p>110 台北市信義區信義路五段7號 (台北101大樓 88樓)</p>
+              </div>
+            </li>
+            
+            <li class="contact-detail-item">
+              <span class="contact-detail-icon"><i class="fa-solid fa-phone"></i></span>
+              <div class="contact-detail-text">
+                <h4>客服電話 / Phone</h4>
+                <p>02-8101-8800 (週一至週五 09:30 - 18:30)</p>
+              </div>
+            </li>
+
+            <li class="contact-detail-item">
+              <span class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></span>
+              <div class="contact-detail-text">
+                <h4>電子郵件 / Email</h4>
+                <p>service@auracosmetics.com</p>
+              </div>
+            </li>
+
+            <li class="contact-detail-item">
+              <span class="contact-detail-icon"><i class="fa-solid fa-store"></i></span>
+              <div class="contact-detail-text">
+                <h4>信義旗艦店 / Boutique</h4>
+                <p>台北市信義區松壽路9號 (新光三越A9館 1F)<br>營業時間：11:00 - 21:30</p>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Styled Mock Map -->
+          <div style="margin-top: 40px; border-radius: var(--border-radius); overflow: hidden; background-color: var(--bg-secondary); border: 1px solid rgba(197, 168, 128, 0.15); height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; position: relative;">
+            <i class="fa-solid fa-map-location-dot" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 12px;"></i>
+            <h4 style="font-family: var(--font-heading); font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;">台北101 旗艦研發總部</h4>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">台北捷運「台北101/世貿站」4號出口直達</p>
+            <div style="position: absolute; bottom: 10px; right: 10px; font-size: 0.7rem; color: var(--accent-dark); font-weight: 500;">
+              <i class="fa-solid fa-location-arrow"></i> 開啟地圖導航
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-block">
+          <h2 class="contact-info-title">傳送訊息</h2>
+          
+          <div class="alert alert-success" id="formSuccess">
+            <strong>成功！</strong> 您的訊息已成功傳送，客服專員將於 24 小時內與您聯繫。
+          </div>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contactName" class="form-label">您的姓名 *</label>
+              <input type="text" id="contactName" class="form-control" required placeholder="例如：陳小姐">
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">電子郵件 *</label>
+              <input type="email" id="contactEmail" class="form-control" required placeholder="service@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="contactPhone" class="form-label">聯絡電話</label>
+              <input type="tel" id="contactPhone" class="form-control" placeholder="0912-345-678">
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject" class="form-label">主旨 *</label>
+              <select id="contactSubject" class="form-control" required style="appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%237C7874%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 18px top 50%; background-size: 10px auto; padding-right: 40px;">
+                <option value="" disabled selected>請選擇諮詢類別</option>
+                <option value="order">訂單與出貨問題</option>
+                <option value="return">退換貨服務申請</option>
+                <option value="product">彩妝與保養諮詢</option>
+                <option value="partnership">商業合作洽談</option>
+                <option value="other">其他問題</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">內容詳情 *</label>
+              <textarea id="contactMessage" class="form-control" required placeholder="請詳細描述您的問題，以便我們提供最合適的協助。"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">送出訊息</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column footer-about">
+          <h3>AURA Cosmetics</h3>
+          <p>奢華光感與自然優雅的完美結合。AURA 致力於打造純淨無瑕的美妝體驗，釋放每位女性獨特的自信光芒。</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3>快速連結</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">品牌故事</a></li>
+            <li><a href="products.html">所有產品</a></li>
+            <li><a href="tutorials.html">美妝教學</a></li>
+            <li><a href="returns.html">售後與退換貨</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>熱銷品項</h3>
+          <ul class="footer-links">
+            <li><a href="product-foundation.html">絲絨光感粉底液</a></li>
+            <li><a href="product-lipstick.html">霧面絲絨唇膏</a></li>
+            <li><a href="product-eyeshadow.html">大地之光九色眼影盤</a></li>
+            <li><a href="product-highlighter.html">極致星光高光液</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>訂閱我們</h3>
+          <p style="color: #b0b0b0; line-height: 1.6;">第一時間獲取最新彩妝趨勢與獨家優惠。</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="輸入您的電子郵件" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn" aria-label="訂閱"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 AURA Cosmetics. All rights reserved. 版權所有。非真實 brand，僅供前端設計展示用。</p>
+        <p>設計與開發：Antigravity</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
